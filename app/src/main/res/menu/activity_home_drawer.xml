@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bottom_navigation"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Bottom Navigation"/>
+        <item
+            android:id="@+id/nav_empty"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Empty"/>
+        <item
+            android:id="@+id/nav_fullscreen"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Fullscreen"/>
+        <item
+            android:id="@+id/nav_interstitial_ads"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Interstitial Ads"/>
+
+        <item
+            android:id="@+id/nav_banner_ads"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Banner Ads"/>
+
+        <item
+            android:id="@+id/nav_maps"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Maps"/>
+
+        <item
+            android:id="@+id/nav_master_detail_flow"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Master Detail Flow"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Login"/>
+            <item
+                android:id="@+id/nav_scrolling"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Scrolling"/>
+        </menu>
+    </item>
+
+    <item android:title="Tabbed">
+        <menu>
+            <item
+                android:id="@+id/nav_swipe_views_tabs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Swipe Views"/>
+            <item
+                android:id="@+id/nav_action_bar_tabs"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Action Bar Tabs"/>
+            <item
+                android:id="@+id/nav_action_bar_spinner"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Action Bar Spinner"/>
+        </menu>
+    </item>
+
+</menu>
